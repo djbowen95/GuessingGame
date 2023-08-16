@@ -24,8 +24,9 @@
 ## Contents
 1. [About](#about)
 2. [Install](#install)
-2. [User Guide](#user-guide)
-3. [Key Features](#key-features)
+3. [User Guide](#user-guide)
+4. [Key Features](#key-features)
+5. [Tests](#tests)
 4. [Version History](#version-history)
 5. [Contact](#contact)
 
@@ -39,12 +40,17 @@ To install the application:
  - Navigate to the directory you would like to install the game in on the command-line.
  - Clone the repository using the command `git clone git@github.com:djbowen95/GuessingGame.git`
  - Install the required packages using `npm install` (or the equivalent command using your chosen package manager)
- - Run the command `node index` to begin playing the game.
+ - Run the command `npm start` to begin playing the game.
 ## User Guide
 When finished, I will walk through how to play the game here.
 
 ## Key Features
 When finished, I will walk through each of the concepts I used / covered in this project - with a focus on object-oriented programming and test-driven development.
+
+## Tests
+This application is built with unit tests. To run the tests:
+ - Follow the [install](#install) instructions as above, to clone the repository locally.
+ - Run `npm test` to view the results of the unit tests.
 
 ## Version History
 ### 0.0.0 Starter Code
