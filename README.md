@@ -7,7 +7,7 @@
   <a href="https://github.com/djbowen95/GuessingGame/releases/latest"><img src="https://img.shields.io/github/release-date/djbowen95/GuessingGame?style=flat-square&color=FDA325" alt="current release date badge"></a>
   <br/>
   <a href="https://github.com/djbowen95/GuessingGame/issues"><img src="https://img.shields.io/github/issues/djbowen95/GuessingGame?style=flat-square&color=E5E5E5" alt="badge for total number of issues on this repo"></a>
-  <a href="https://github.com/djbowen95/GuessingGame/issues?q=is%3Aissue+is%3Aopen+label%3A%22new+feature%22"><img src="https://img.shields.io/github/issues/djbowen95/GuessingGame/new%20feature?style=flat-square&label=enhancements&color=b8dcff" alt="issues tagged with new feature"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/issues?q=is%3Aissue+is%3Aopen+label=enhancement"><img src="https://img.shields.io/github/issues/djbowen95/GuessingGame/enhancement?style=flat-square&label=enhancements&color=b8dcff" alt="issues tagged with new feature"></a>
   <a href="https://github.com/djbowen95/GuessingGame/issues?q=is%3Aissue+is%3Aopen+label%3Abug"><img src="https://img.shields.io/github/issues/djbowen95/GuessingGame/bug?style=flat-square&label=bugs&color=fedfb1" alt="issues tagged as bugs"></a>
   <a href="https://github.com/djbowen95/GuessingGame/issues?q=is%3Aissue+label%3Abug+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/djbowen95/GuessingGame?style=flat-square&color=8E8E8E" alt="closed issues"></a>
   <br/>
