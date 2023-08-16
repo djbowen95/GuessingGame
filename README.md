@@ -2,18 +2,18 @@
 <div align="center">
   <p>This Word Guessing Game is a command-line application, where a user can input a letter to guess a word from a bank of words - similar to the classic game hangman. It is built with JavaScript and Node, with the Inquirer package. It was built from starter code that included pre-written unit tests written in Jest - my goal was to meet each of these tests by writing the minimum amount of code required to pass.</p>
   <p>The project was an assignment for the <a href="https://gist.github.com/djbowen95/2846640d520a16165b9b23db2d9e0926"><strong>University of Birmingham Full-Stack Development Coding Bootcamp</strong></a>. It was built from starter code.</p>  
-  <a href="https://djbowen95.github.io/Hit-the-Bucket/"><img src="https://img.shields.io/badge/Deployed%20here!%20-008CFF?style=flat-square" alt="deployed link badge"></a>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/releases/latest"><img src="https://img.shields.io/github/v/release/djbowen95/Hit-the-Bucket?style=flat-square&color=FDA325" alt="current release tag badge"></a>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/releases/latest"><img src="https://img.shields.io/github/release-date/djbowen95/Hit-the-Bucket?style=flat-square&color=FDA325" alt="current release date badge"></a>
+  <a href="#install"><img src="https://img.shields.io/badge/Install%20instructions%20-008CFF?style=flat-square" alt="deployed link badge"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/releases/latest"><img src="https://img.shields.io/github/v/release/djbowen95/GuessingGame?style=flat-square&color=FDA325" alt="current release tag badge"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/releases/latest"><img src="https://img.shields.io/github/release-date/djbowen95/GuessingGame?style=flat-square&color=FDA325" alt="current release date badge"></a>
   <br/>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/issues"><img src="https://img.shields.io/github/issues/djbowen95/Hit-the-Bucket?style=flat-square&color=E5E5E5" alt="badge for total number of issues on this repo"></a>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/issues?q=is%3Aissue+is%3Aopen+label%3A%22new+feature%22"><img src="https://img.shields.io/github/issues/djbowen95/Hit-the-Bucket/new%20feature?style=flat-square&label=enhancements&color=b8dcff" alt="issues tagged with new feature"></a>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/issues?q=is%3Aissue+is%3Aopen+label%3Abug"><img src="https://img.shields.io/github/issues/djbowen95/Hit-the-Bucket/bug?style=flat-square&label=bugs&color=fedfb1" alt="issues tagged as bugs"></a>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/issues?q=is%3Aissue+label%3Abug+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/djbowen95/Hit-the-Bucket?style=flat-square&color=8E8E8E" alt="closed issues"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/issues"><img src="https://img.shields.io/github/issues/djbowen95/GuessingGame?style=flat-square&color=E5E5E5" alt="badge for total number of issues on this repo"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/issues?q=is%3Aissue+is%3Aopen+label%3A%22new+feature%22"><img src="https://img.shields.io/github/issues/djbowen95/GuessingGame/new%20feature?style=flat-square&label=enhancements&color=b8dcff" alt="issues tagged with new feature"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/issues?q=is%3Aissue+is%3Aopen+label%3Abug"><img src="https://img.shields.io/github/issues/djbowen95/GuessingGame/bug?style=flat-square&label=bugs&color=fedfb1" alt="issues tagged as bugs"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/issues?q=is%3Aissue+label%3Abug+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/djbowen95/GuessingGame?style=flat-square&color=8E8E8E" alt="closed issues"></a>
   <br/>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/commits/main"><img src="https://img.shields.io/github/commit-activity/t/djbowen95/Hit-the-Bucket?style=flat-square&color=1348ba" alt="badge for number of commits"></a>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/pulse"><img src="https://img.shields.io/github/repo-size/djbowen95/Hit-the-Bucket?style=flat-square&color=E5E5E5" alt="repo size"></a>
-  <a href="https://github.com/djbowen95/Hit-the-Bucket/blob/main/LICENSE"><img src="https://img.shields.io/github/license/djbowen95/Hit-the-Bucket?style=flat-square&color=00df54" alt="license badge"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/commits/main"><img src="https://img.shields.io/github/commit-activity/t/djbowen95/GuessingGame?style=flat-square&color=1348ba" alt="badge for number of commits"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/pulse"><img src="https://img.shields.io/github/repo-size/djbowen95/GuessingGame?style=flat-square&color=E5E5E5" alt="repo size"></a>
+  <a href="https://github.com/djbowen95/GuessingGame/blob/main/LICENSE"><img src="https://img.shields.io/github/license/djbowen95/GuessingGame?style=flat-square&color=00df54" alt="license badge"></a>
   <a href="#contact"><img src="https://img.shields.io/badge/Contact!%20-1348ba?style=flat-square" alt="link to contact section"></a>
   <br/> <br/>
 </div>
