@@ -23,6 +23,7 @@
 
 ## Contents
 1. [About](#about)
+2. [Install](#install)
 2. [User Guide](#user-guide)
 3. [Key Features](#key-features)
 4. [Version History](#version-history)
@@ -33,6 +34,12 @@ This project was a <strong>classroom assignment</strong> for the <strong>[Univer
 
 You can view the starter code for the project [here](https://github.com/djbowen95/GuessingGame/blob/main/docs/BRIEF.md).
 
+## Install
+To install the application:
+ - Navigate to the directory you would like to install the game in on the command-line.
+ - Clone the repository using the command `git clone git@github.com:djbowen95/GuessingGame.git`
+ - Install the required packages using `npm install` (or the equivalent command using your chosen package manager)
+ - Run the command `node index` to begin playing the game.
 ## User Guide
 When finished, I will walk through how to play the game here.
 
