@@ -13,7 +13,7 @@ describe('Initialisation', () => {
         const game = new Game();
     
         expect(game.play()).toBeDefined();
-        expect(typeof (game.play())).toBe('function');
+        expect(typeof (game.play)).toBe('function');
     });
 
     it('next word method', () => {});
