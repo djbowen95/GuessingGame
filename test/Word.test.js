@@ -54,13 +54,14 @@ describe('Word class', () => {
       word.guessLetter('h');
       word.guessLetter('i');
 
-      expect(word.letters[1].visible).toBe(true);
-      // expect(word.guessedCorrectly()).toBe(true);
+      expect(word.guessedCorrectly()).toBe(true);
     });
+    
     it('returns false if at least one letter is incorrect', () => {
       const word = new Word('hi');
       word.guessLetter('h');
       word.guessLetter('a');
+
       expect(word.guessedCorrectly()).toBe(false);
     });
   });
