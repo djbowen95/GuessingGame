@@ -13,8 +13,10 @@ describe('Word class', () => {
   });
 
   describe('guessLetter', () => {
-    it('Correct guess returns true', () => {
-      expect(new Word('fish').guessLetter('i')).toBe(true);
+    it('Correct guesses return true', () => {
+      const fish = new Word('fish');
+      expect(fish.guessLetter('i')).toBe(true);
+      expect(fish.guessLetter('h')).toBe(true);
     });
 
     it('Incorrect guess returns false', () => {
