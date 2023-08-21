@@ -1,7 +1,7 @@
 const Game = require('../lib/Game');
 
 describe('Initialisation', () => {
-    it('guessesLeft property', () => {
+    it('guessesLeft property to record current turn', () => {
         const game = new Game();
 
         expect(game.guessesLeft).toBeDefined();
@@ -9,14 +9,19 @@ describe('Initialisation', () => {
     });
 
 
-    it('play method', () => {
+    it('play method to start game', () => {
         const game = new Game();
     
-        expect(game.play()).toBeDefined();
+        expect(game.play).toBeDefined();
         expect(typeof (game.play)).toBe('function');
     });
 
-    it('next word method', () => {});
+    it('nextWord method to select a new word', () => {
+        const game = new Game();
+
+        expect(game.nextWord).toBeDefined();
+        expect(typeof (game.nextWord)).toBe('function');
+    });
     
     it('ask for letter method', () => {});
     it('make guess method', () => {});
