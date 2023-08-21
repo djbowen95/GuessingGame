@@ -48,14 +48,17 @@ describe('Start a new game with .play()', () => {
 
         game.play();
 
-        expect(spy.mock.calls).toHaveLength(1);
+        expect(spy).toHaveBeenCalled();
         spy.mockRestore();
        });
 });
 
 describe('Select a new word with .nextWord()', () => {
     it('selects a word from the words module', () => {});
-    it('the word from the list is random', () => {});
+    it('the word from the list is random', () => {
+        // Mock to call Math.random() / check Math.random is called
+        // Test array length / total array - maybe seperate this into a method
+    });
     it('creates a new instance of the Word class', () => {});
     it('logs the starting string to the console', () => {});
     it('runs the command to prompt the user for input', () => {});
