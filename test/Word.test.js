@@ -56,7 +56,7 @@ describe('Word class', () => {
 
       expect(word.guessedCorrectly()).toBe(true);
     });
-    
+
     it('returns false if at least one letter is incorrect', () => {
       const word = new Word('hi');
       word.guessLetter('h');
@@ -65,4 +65,8 @@ describe('Word class', () => {
       expect(word.guessedCorrectly()).toBe(false);
     });
   });
+
+  describe('getSolution', () => {
+    expect(new Word('chocolate').getSolution()).toBe('chocolate');
+  } )
 });
