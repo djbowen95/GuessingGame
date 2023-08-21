@@ -71,16 +71,24 @@ describe('Word class', () => {
   } )
 
   describe('toString', () => {
-    it('Returns a string', () => {
-      expect(typeof (new Word(chocolate).toString())).toBe('string');
+    it('returns a string', () => {
+      const word = new Word('chocolate');
+
+      expect(typeof(word.toString())).toBe('string');
     })
 
-    it('Returns a string with equal length to the word', () => {
-      expect(new Word('chocolate').toString().length).toEqual('chocolate'.length);
+    it('returns a string with equal length to the word', () => {
+      const word = new Word('marshmallow');
+
+      expect(word.toString().length).toEqual('marshmallow'.length);
     });
 
-    it('returns a string', () => {})
-    it('returns a string', () => {})
-    it('returns a string', () => {})
+    it('returns unguessed letters as hidden', () => {
+      const word = new Word('crumpet');
+
+      expect(word.toString()).toBe('_______');
+    })
+
+
   })
 });
