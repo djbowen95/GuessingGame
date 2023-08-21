@@ -89,6 +89,12 @@ describe('Word class', () => {
       expect(word.toString()).toBe('_______');
     })
 
+    it('returns guessed letters as visible', () => {
+      const word = new Word('potato');
 
+      word.guessLetter('p');
+      
+      expect(word.toString()).toBe('p_____');
+    })
   })
 });
