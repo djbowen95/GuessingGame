@@ -57,6 +57,13 @@ describe('Start a new game with .play()', () => {
     it('runs function to select a word', () => {
         const game = new Game();
 
+        const spy = jest.spyOn(game, "nextWord");
+        spy.mockImplementation(() => {});
+
+        game.play();
+
+        expect(spy.mock.calls).toHaveLength(1);
+        spy.mockRestore();
         // const game = new Game();
 
         // game.play();
