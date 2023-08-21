@@ -39,7 +39,24 @@ describe('Start a new game with .play()', () => {
 
         expect(game.guessesLeft).toBe(10);
     });
+    it('test mock', () => {
+        const game = new Game();
+
+        // const play = jest.fn();
+        const play = jest.spyOn(game, "play");
+        play.mockImplementation(() => {});
+        
+        game.play();
+        game.play();
+        game.play();
+
+        expect(play.mock.calls).toHaveLength(2);
+        play.mockRestore();
+    })
+
     it('runs function to select a word', () => {
+        const game = new Game();
+
         // const game = new Game();
 
         // game.play();
