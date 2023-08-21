@@ -75,6 +75,12 @@ describe('Word class', () => {
       expect(typeof (new Word(chocolate).toString())).toBe('string');
     })
 
+    it('Returns a string with equal length to the word', () => {
+      expect(new Word('chocolate').toString().length).toEqual('chocolate'.length);
+    });
 
+    it('returns a string', () => {})
+    it('returns a string', () => {})
+    it('returns a string', () => {})
   })
 });
