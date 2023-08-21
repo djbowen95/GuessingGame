@@ -22,6 +22,18 @@ describe('Word class', () => {
     it('Incorrect guess returns false', () => {
       expect(new Word('fish').guessLetter('o')).toBe(false);
     });
+
+    it('Correct guess will update the visible property', () => {
+      const worm = new Word('worm');
+      
+      const w = worm.letters.filter((letter) => letter.character == 'w')[0];
+      expect(w.visible).toBe(false);
+
+      worm.guessLetter('w');
+
+      const newW = worm.letters.filter(letter => letter.character === 'w')[0];
+      expect(newW.visible).toBe(true);
+    })
   });
 
   describe('guessedCorrectly ', () => {
