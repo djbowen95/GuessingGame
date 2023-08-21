@@ -9,7 +9,13 @@ describe('Initialisation', () => {
     });
 
 
-    it('play method', () => {});
+    it('play method', () => {
+        const game = new Game();
+    
+        expect(game.play()).toBeDefined();
+        expect(typeof (game.play())).toBe('function');
+    });
+
     it('next word method', () => {});
     
     it('ask for letter method', () => {});
@@ -21,8 +27,20 @@ describe('Initialisation', () => {
 });
 
 describe('Start a new game with .play()', () => {
-    it('sets the guessesLeft to 10', () => {});
-    it('runs function to select a word', () => {});
+    it('sets the guessesLeft to 10', () => {
+        const game = new Game();
+
+        game.play();
+
+        expect(game.guessesLeft).toBe(10);
+    });
+    it('runs function to select a word', () => {
+        // const game = new Game();
+
+        // game.play();
+
+        // const play = jest.fn(); ... then nextWord() = jest.fn();        
+    });
 });
 
 describe('Select a new word with .nextWord()', () => {
