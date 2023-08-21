@@ -30,11 +30,11 @@ describe('Word class', () => {
     });
 
     it('Incorrect guess, after correct guess, returns false', () => {
-      const fish = new Word('fish');
+      const fish = new Word('cat');
 
-      fish.guessLetter('i');
+      fish.guessLetter('c');
       
-      expect(fish.guessLetter('o')).toBe(false);
+      expect(fish.guessLetter('m')).toBe(false);
     })
 
     it('Correct guess will update the visible property', () => {
