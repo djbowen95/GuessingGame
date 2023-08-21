@@ -69,4 +69,12 @@ describe('Word class', () => {
   describe('getSolution', () => {
     expect(new Word('chocolate').getSolution()).toBe('chocolate');
   } )
+
+  describe('toString', () => {
+    it('Returns a string', () => {
+      expect(typeof (new Word(chocolate).toString())).toBe('string');
+    })
+
+
+  })
 });
