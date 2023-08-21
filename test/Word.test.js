@@ -69,4 +69,38 @@ describe('Word class', () => {
   describe('getSolution', () => {
     expect(new Word('chocolate').getSolution()).toBe('chocolate');
   } )
+
+  describe('toString', () => {
+    it('returns a string', () => {
+      const word = new Word('chocolate');
+
+      expect(typeof(word.toString())).toBe('string');
+    })
+
+    it('returns a string with equal length to the word', () => {
+      const word = new Word('marshmallow');
+
+      expect(word.toString().length).toEqual('marshmallow'.length);
+    });
+
+    it('returns unguessed letters as hidden', () => {
+      const word = new Word('crumpet');
+
+      expect(word.toString()).toBe('_______');
+    });
+
+    it('returns guessed letters as visible', () => {
+      const word = new Word('potato');
+
+      word.guessLetter('p');
+      
+      expect(word.toString()).toBe('p_____');
+    });
+
+    it('returns spaces and special characters as default', () => {
+      const word = new Word('hash brown?');
+
+      expect(word.toString()).toBe('____ _____?')
+    });
+  })
 });
