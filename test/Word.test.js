@@ -87,7 +87,7 @@ describe('Word class', () => {
       const word = new Word('crumpet');
 
       expect(word.toString()).toBe('_______');
-    })
+    });
 
     it('returns guessed letters as visible', () => {
       const word = new Word('potato');
@@ -95,6 +95,12 @@ describe('Word class', () => {
       word.guessLetter('p');
       
       expect(word.toString()).toBe('p_____');
-    })
+    });
+
+    it('returns spaces and special characters as default', () => {
+      const word = new Word('hash brown?');
+
+      expect(word.toString()).toBe('____ _____?')
+    });
   })
 });
