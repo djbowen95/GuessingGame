@@ -13,15 +13,29 @@ describe('Word class', () => {
   });
 
   describe('guessLetter', () => {
-    it('Correct guesses return true', () => {
-      const fish = new Word('fish');
-      expect(fish.guessLetter('i')).toBe(true);
-      expect(fish.guessLetter('h')).toBe(true);
+    it('Correct guess returns true', () => {
+      expect(new Word('fish').guessLetter('h')).toBe(true);
     });
 
     it('Incorrect guess returns false', () => {
       expect(new Word('fish').guessLetter('o')).toBe(false);
     });
+
+    it('Second correct guess still returns true', () => {
+      const fish = new Word('fish');
+
+      fish.guessLetter('i');
+      
+      expect(fish.guessLetter('h')).toBe(true);
+    });
+
+    it('Incorrect guess, after correct guess, returns false', () => {
+      const fish = new Word('fish');
+
+      fish.guessLetter('i');
+      
+      expect(fish.guessLetter('o')).toBe(true);
+    })
 
     it('Correct guess will update the visible property', () => {
       const worm = new Word('worm');
